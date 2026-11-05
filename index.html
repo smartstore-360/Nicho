@@ -810,7 +810,7 @@ document.addEventListener('visibilitychange', () => { if (!document.hidden) Idle
    • Hosted elsewhere (e.g. GitHub Pages) → calls the same backend over
      HTTPS. Paste your Apps Script web-app URL (ends in /exec) below.
    --------------------------------------------------------- */
-const API_URL = 'PASTE_YOUR_WEB_APP_URL_HERE';
+const API_URL = 'https://script.google.com/macros/s/AKfycbxlIgQXnShdtDpNXeN3kf4Kw-YMsexu-rdz4gayhTtC6CNzuHhILvSQLvp62LZhoQgbCQ/exec';
 const hasGAS = !!(window.google && google.script && google.script.run);
 const API_OK = /^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(API_URL);
 
